@@ -15,6 +15,9 @@ const config: HardhatUserConfig = {
       accounts: [PRIVATE_KEY],
     },
   },
+  sourcify: {
+    enabled: true
+  },
   etherscan: {
     apiKey: {
       swisstronik: "ANY_STRING_WILL_DO"
